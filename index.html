@@ -4,12 +4,25 @@
     </head>
     <body>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
+            <div class="sides">
+                <h3 class="board-title">HOME</h3>
+                <p class="points-text" id="home-points">0</p>
+                <div class="increments-section">
+                    <button class="increments" onclick="homeOne()">+1</button>
+                    <button class="increments" onclick="homeTwo()">+2</button>
+                    <button class="increments" onclick="homeThree()">+3</button>
+                </div>
             </div>
-            <div>
-                <h3>GUEST</h3>
+            <div class="sides">
+                <h3 class="board-title">GUEST</h3>
+                <p class="points-text" id="guest-pointbutton">0</p>
+                <div class="increments-section">
+                    <button class="increments" onclick="guestOne()">+1</button>
+                    <button class="increments" onclick="guestTwo()">+2</button>
+                    <button class="increments" onclick="guestThree()">+3</button>
+                </div>
             </div>
+            <button id="new-game" onclick="newGame()">New Game</button>
         </div>
         <script src="index.js"></script>
     </body>
