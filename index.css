@@ -14,7 +14,7 @@ body {
     text-align: center;
     background: #1b244a;
     min-height: 50%;
-    max-width: 70%;
+    max-width: 80%;
     margin: 80px auto;
     padding: 20px 10px;
     border: 20px solid #9CA3AF;
@@ -55,7 +55,7 @@ body {
     border-radius: 5px;
     color: #9aadb8;
     background: none;
-    margin: auto;
+    margin: auto 2px;
     padding-top: 10px;
     font-size: 1.5em;
     font-family: 'GameFont';
